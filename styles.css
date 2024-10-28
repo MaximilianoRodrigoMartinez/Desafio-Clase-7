@@ -1,0 +1,64 @@
+.carta {
+    box-sizing: content-box;
+    max-width: 350px;
+    border: solid 10px rgb(17, 94, 23);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(74, 119, 0), rgb(143, 89, 8))
+}
+
+.tipo {
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.valor-hp {
+    position: absolute;
+    top: 10px;   
+    right: 10px;
+    font-weight: bold;
+    font-size: large;
+    color: brown;
+}
+
+.imagen {
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.imagen:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+
+.descripcion {
+    background-color: rgb(116, 83, 21);
+    font-size: small;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nombre {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ 
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    font-size: small;
+    text-align: left;
+}
+
+* {
+    font-family: Poppins;
+}
